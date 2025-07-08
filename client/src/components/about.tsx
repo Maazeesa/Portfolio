@@ -77,7 +77,7 @@ export default function About() {
                 
                 <div className="mt-6 text-center">
                   <a 
-                    href="https://drive.google.com/your-resume-link" 
+                    href="https://drive.google.com/file/d/1m-eUhGdWU6qjQR1uUQVlQOjEcLVTR1ds/view?usp=drive_link" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="inline-flex items-center space-x-2 bg-sgr-gold hover:bg-sgr-light-gold text-white px-6 py-3 rounded-lg font-semibold transition-all shadow-lg hover:shadow-xl"
