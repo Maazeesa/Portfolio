@@ -18,42 +18,74 @@ export default function About() {
             <div className="space-y-6">
               <div className="bg-sgr-beige/30 rounded-xl p-6 border border-yellow-400/20">
                 <h3 className="text-xl font-semibold sgr-dark-brown mb-4">Current Role</h3>
-                <div className="space-y-3">
+                <div className="space-y-3 mb-4">
                   <div className="flex items-center space-x-3">
                     <i className="fas fa-building sgr-gold"></i>
-                    <span className="text-gray-700">Saudi Gold Refinery - CFO Office</span>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <i className="fas fa-calendar sgr-gold"></i>
-                    <span className="text-gray-700">June 2024 - Present</span>
+                    <span className="text-gray-700 font-medium">Saudi Gold Refinery – CFO Office</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <i className="fas fa-map-marker-alt sgr-gold"></i>
                     <span className="text-gray-700">Riyadh, Saudi Arabia</span>
                   </div>
+                  <div className="flex items-center space-x-3">
+                    <i className="fas fa-calendar sgr-gold"></i>
+                    <span className="text-gray-700">June 2024 – Present</span>
+                  </div>
                 </div>
-              </div>
-
-              <div className="bg-sgr-beige/30 rounded-xl p-6 border border-yellow-400/20">
-                <h3 className="text-xl font-semibold sgr-dark-brown mb-4">Key Achievements</h3>
+                
+                <h4 className="text-lg font-semibold sgr-dark-brown mb-3">Key Achievements:</h4>
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-start space-x-2">
                     <i className="fas fa-check sgr-gold mt-1"></i>
-                    <span>15% reduction in project delays</span>
+                    <span>Reduced project delays by 15% through milestone tracking automation</span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <i className="fas fa-check sgr-gold mt-1"></i>
-                    <span>30% improvement in reporting automation</span>
+                    <span>Improved reporting efficiency by 30% via Power Automate</span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <i className="fas fa-check sgr-gold mt-1"></i>
-                    <span>5% reduction in budget overruns</span>
+                    <span>Cut budget overruns by 5% using forecasting dashboards</span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <i className="fas fa-check sgr-gold mt-1"></i>
-                    <span>100% on-time project completion</span>
+                    <span>Delivered 90% on-time completion across 16+ projects</span>
                   </li>
                 </ul>
+              </div>
+
+              <div className="bg-sgr-beige/30 rounded-xl p-6 border border-yellow-400/20">
+                <h3 className="text-xl font-semibold sgr-dark-brown mb-4">Areas of Expertise</h3>
+                <div className="grid grid-cols-2 gap-3">
+                  <div className="bg-sgr-beige/50 rounded-lg p-3 text-center">
+                    <i className="fas fa-chart-line sgr-gold text-xl mb-2"></i>
+                    <p className="text-sm font-medium sgr-dark-brown">Data Analytics</p>
+                  </div>
+                  <div className="bg-sgr-beige/50 rounded-lg p-3 text-center">
+                    <i className="fas fa-project-diagram sgr-gold text-xl mb-2"></i>
+                    <p className="text-sm font-medium sgr-dark-brown">Project Monitoring</p>
+                  </div>
+                  <div className="bg-sgr-beige/50 rounded-lg p-3 text-center">
+                    <i className="fas fa-robot sgr-gold text-xl mb-2"></i>
+                    <p className="text-sm font-medium sgr-dark-brown">Process Automation</p>
+                  </div>
+                  <div className="bg-sgr-beige/50 rounded-lg p-3 text-center">
+                    <i className="fas fa-chart-bar sgr-gold text-xl mb-2"></i>
+                    <p className="text-sm font-medium sgr-dark-brown">Business Intelligence</p>
+                  </div>
+                </div>
+                
+                <div className="mt-6 text-center">
+                  <a 
+                    href="https://drive.google.com/your-resume-link" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center space-x-2 bg-sgr-gold hover:bg-sgr-light-gold text-white px-6 py-3 rounded-lg font-semibold transition-all shadow-lg hover:shadow-xl"
+                  >
+                    <i className="fas fa-download"></i>
+                    <span>Download Resume</span>
+                  </a>
+                </div>
               </div>
             </div>
 

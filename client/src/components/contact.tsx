@@ -84,23 +84,23 @@ export default function Contact() {
               </div>
 
               <div className="bg-white rounded-xl p-6 shadow-lg border border-yellow-400/20">
-                <h3 className="text-xl font-bold sgr-dark-brown mb-4">Areas of Expertise</h3>
-                <div className="grid grid-cols-2 gap-3">
-                  <div className="bg-sgr-beige/50 rounded-lg p-3 text-center">
-                    <i className="fas fa-chart-line sgr-gold text-xl mb-2"></i>
-                    <p className="text-sm font-medium sgr-dark-brown">Data Analytics</p>
+                <h3 className="text-xl font-bold sgr-dark-brown mb-4">Professional Summary</h3>
+                <div className="space-y-4 text-gray-700">
+                  <div className="flex items-center space-x-3">
+                    <i className="fas fa-user-tie sgr-gold"></i>
+                    <span>3+ Years in Data Analytics & Project Management</span>
                   </div>
-                  <div className="bg-sgr-beige/50 rounded-lg p-3 text-center">
-                    <i className="fas fa-project-diagram sgr-gold text-xl mb-2"></i>
-                    <p className="text-sm font-medium sgr-dark-brown">Project Management</p>
+                  <div className="flex items-center space-x-3">
+                    <i className="fas fa-award sgr-gold"></i>
+                    <span>Certified in Project Management Foundations</span>
                   </div>
-                  <div className="bg-sgr-beige/50 rounded-lg p-3 text-center">
-                    <i className="fas fa-robot sgr-gold text-xl mb-2"></i>
-                    <p className="text-sm font-medium sgr-dark-brown">Process Automation</p>
+                  <div className="flex items-center space-x-3">
+                    <i className="fas fa-globe sgr-gold"></i>
+                    <span>Multilingual: English, Hindi, Urdu, Arabic</span>
                   </div>
-                  <div className="bg-sgr-beige/50 rounded-lg p-3 text-center">
-                    <i className="fas fa-chart-bar sgr-gold text-xl mb-2"></i>
-                    <p className="text-sm font-medium sgr-dark-brown">Business Intelligence</p>
+                  <div className="flex items-center space-x-3">
+                    <i className="fas fa-graduation-cap sgr-gold"></i>
+                    <span>Bachelor of Commerce (Expected 2026)</span>
                   </div>
                 </div>
               </div>
