@@ -23,7 +23,7 @@ export default function Experience() {
                   </div>
                   <p className="sgr-brown font-medium mb-3">Saudi Gold Refinery • Riyadh, Saudi Arabia</p>
                   <ul className="text-gray-700 space-y-2">
-                    <li>• Monitored 12+ projects ensuring 100% on-time completion</li>
+                    <li>• Monitored 16+ projects ensuring 100% on-time completion</li>
                     <li>• Reduced reporting time by 20% through automation</li>
                     <li>• Achieved 15% reduction in project delays</li>
                     <li>• Improved decision-making speed by 10%</li>

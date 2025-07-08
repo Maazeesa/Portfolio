@@ -7,8 +7,8 @@ export default function About() {
             <h2 className="text-4xl font-bold sgr-dark-brown mb-4">About Me</h2>
             <div className="w-20 h-1 bg-sgr-gold mx-auto mb-6"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Meticulous Project Coordinator specializing in managing project milestones, budgets, and operational efficiency 
-              with a focus on regulatory compliance and reporting automation.
+              Specialized Data Analyst & Project Monitor with expertise in operational efficiency, real-time analytics, 
+              and reporting automation across mining and construction sectors.
             </p>
           </div>
 
@@ -79,11 +79,38 @@ export default function About() {
                   </div>
                   <div className="space-y-2">
                     <div className="flex items-center justify-between">
-                      <span className="text-sm text-gray-700">Python</span>
+                      <span className="text-sm text-gray-700">Advanced Excel</span>
+                      <span className="text-xs sgr-gold">Expert</span>
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-2">
+                      <div className="bg-sgr-gold h-2 rounded-full w-11/12"></div>
+                    </div>
+                  </div>
+                  <div className="space-y-2">
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm text-gray-700">Google Sheets</span>
+                      <span className="text-xs sgr-gold">Expert</span>
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-2">
+                      <div className="bg-sgr-gold h-2 rounded-full w-11/12"></div>
+                    </div>
+                  </div>
+                  <div className="space-y-2">
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm text-gray-700">Google Studio</span>
                       <span className="text-xs sgr-gold">Advanced</span>
                     </div>
                     <div className="w-full bg-gray-200 rounded-full h-2">
-                      <div className="bg-sgr-gold h-2 rounded-full w-4/5"></div>
+                      <div className="bg-sgr-gold h-2 rounded-full w-5/6"></div>
+                    </div>
+                  </div>
+                  <div className="space-y-2">
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm text-gray-700">Python</span>
+                      <span className="text-xs sgr-gold">Intermediate</span>
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-2">
+                      <div className="bg-sgr-gold h-2 rounded-full w-3/4"></div>
                     </div>
                   </div>
                   <div className="space-y-2">
@@ -93,6 +120,15 @@ export default function About() {
                     </div>
                     <div className="w-full bg-gray-200 rounded-full h-2">
                       <div className="bg-sgr-gold h-2 rounded-full w-11/12"></div>
+                    </div>
+                  </div>
+                  <div className="space-y-2">
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm text-gray-700">Power Query</span>
+                      <span className="text-xs sgr-gold">Advanced</span>
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-2">
+                      <div className="bg-sgr-gold h-2 rounded-full w-5/6"></div>
                     </div>
                   </div>
                 </div>

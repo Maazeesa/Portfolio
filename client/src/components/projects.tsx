@@ -30,7 +30,7 @@ export default function Projects() {
                 
                 <p className="text-gray-700 mb-6 leading-relaxed">
                   Comprehensive exploration dashboard monitoring trenching, drilling, and safety metrics across 
-                  12+ active projects. Features real-time KPI tracking, utilization analysis, and automated reporting.
+                  16+ active projects. Features real-time KPI tracking, utilization analysis, and automated reporting.
                 </p>
 
                 <div className="space-y-4 mb-6">

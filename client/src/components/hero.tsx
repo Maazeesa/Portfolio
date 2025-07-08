@@ -34,10 +34,10 @@ export default function Hero() {
             <h1 className="text-5xl md:text-6xl font-bold sgr-dark-brown mb-4">
               Mo Maaz <span className="sgr-gold">محمد معاذ</span>
             </h1>
-            <h2 className="text-2xl md:text-3xl font-semibold sgr-brown mb-6">Data Analyst</h2>
+            <h2 className="text-2xl md:text-3xl font-semibold sgr-brown mb-6">Data Analyst | Reporting Automation | Mining & Exploration Operations</h2>
             <p className="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed">
-              Specialized Data Analyst & Project Monitor with 3+ years of experience in mining and construction sectors. 
-              Currently driving operational excellence at Saudi Gold Refinery's CFO Office.
+              Specialized Data Analyst & Project Monitor with 3+ years of experience driving operational efficiency and real-time analytics in mining and construction sectors. 
+              Currently supporting executive operations at Saudi Gold Refinery's CFO Office.
             </p>
           </div>
           
@@ -63,7 +63,7 @@ export default function Hero() {
               <div className="sgr-brown font-medium">Years Experience</div>
             </div>
             <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-lg border border-yellow-400/20">
-              <div className="text-3xl font-bold sgr-gold mb-2">12+</div>
+              <div className="text-3xl font-bold sgr-gold mb-2">16+</div>
               <div className="sgr-brown font-medium">Projects Managed</div>
             </div>
             <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-lg border border-yellow-400/20">
