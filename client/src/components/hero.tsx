@@ -49,6 +49,15 @@ export default function Hero() {
             >
               View My Work
             </button>
+            <a 
+              href="https://drive.google.com/file/d/1m-eUhGdWU6qjQR1uUQVlQOjEcLVTR1ds/view?usp=drive_link" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center space-x-2 border-2 border-sgr-gold sgr-gold hover:bg-sgr-gold hover:text-white px-8 py-3 rounded-lg font-semibold transition-all"
+            >
+              <i className="fas fa-download"></i>
+              <span>Download Resume</span>
+            </a>
             <button
               onClick={handleScrollToContact}
               className="border-2 border-sgr-gold sgr-gold hover:bg-sgr-gold hover:text-white px-8 py-3 rounded-lg font-semibold transition-all"
