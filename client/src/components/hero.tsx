@@ -1,3 +1,5 @@
+import profileImage from "@assets/image_1751972735704.png";
+
 export default function Hero() {
   const handleScrollToProjects = () => {
     const element = document.querySelector('#projects');
@@ -18,6 +20,17 @@ export default function Hero() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
+            {/* Profile Picture */}
+            <div className="mb-8">
+              <div className="w-32 h-32 mx-auto rounded-full overflow-hidden shadow-xl border-4 border-sgr-gold/30 mb-6">
+                <img 
+                  src={profileImage} 
+                  alt="Mo Maaz محمد معاذ - Data Analyst" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+            
             <h1 className="text-5xl md:text-6xl font-bold sgr-dark-brown mb-4">
               Mo Maaz <span className="sgr-gold">محمد معاذ</span>
             </h1>
