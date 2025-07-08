@@ -7,8 +7,10 @@ export default function About() {
             <h2 className="text-4xl font-bold sgr-dark-brown mb-4">About Me</h2>
             <div className="w-20 h-1 bg-sgr-gold mx-auto mb-6"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Specialized Data Analyst & Project Monitor with expertise in operational efficiency, real-time analytics, 
-              and reporting automation across mining and construction sectors.
+              I'm a results-driven Data Analyst and Project Monitor with over 3 years of experience in streamlining operational workflows and automating reporting systems. I specialize in using Power BI, Azure SQL, Advanced Excel, Google Sheets to deliver actionable insights that reduce delays, improve budget tracking, and enhance decision-making.
+            </p>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto mt-6">
+              Currently, I work at Saudi Gold Refinery in the CFO Office, where I lead initiatives for real-time project monitoring, reporting automation, and process optimization across mining & exploration operations.
             </p>
           </div>
 

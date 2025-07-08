@@ -20,6 +20,10 @@ export default function Hero() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
+            <h1 className="text-5xl md:text-6xl font-bold sgr-dark-brown mb-4">
+              Mo Maaz <span className="sgr-gold">محمد معاذ</span>
+            </h1>
+            
             {/* Profile Picture */}
             <div className="mb-8">
               <div className="w-32 h-32 mx-auto rounded-full overflow-hidden shadow-xl border-4 border-sgr-gold/30 mb-6">
@@ -31,9 +35,6 @@ export default function Hero() {
               </div>
             </div>
             
-            <h1 className="text-5xl md:text-6xl font-bold sgr-dark-brown mb-4">
-              Mo Maaz <span className="sgr-gold">محمد معاذ</span>
-            </h1>
             <h2 className="text-2xl md:text-3xl font-semibold sgr-brown mb-6">Data Analyst | Reporting Automation | Mining & Exploration Operations</h2>
             <p className="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed">
               Specialized Data Analyst & Project Monitor with 3+ years of experience driving operational efficiency and real-time analytics in mining and construction sectors. 
