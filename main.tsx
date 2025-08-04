@@ -1,5 +1,17 @@
-import { createRoot } from "react-dom/client";
-import App from "./App";
-import "./index.css";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-createRoot(document.getElementById("root")!).render(<App />);
+function App() {
+  return (
+    <div>
+      <h1>Hello World</h1>
+      <p>If you see this, React is working!</p>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
