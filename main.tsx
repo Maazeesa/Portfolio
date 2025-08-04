@@ -1,17 +1,11 @@
+// src/main.tsx
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-function App() {
-  return (
-    <div>
-      <h1>Hello World</h1>
-      <p>If you see this, React is working!</p>
-    </div>
-  );
-}
+const root = ReactDOM.createRoot(
+  document.getElementById('root') as HTMLElement
+);
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+root.render(
+  <h1>Hello from React!</h1>
 );
