@@ -1,4 +1,4 @@
-import profileImage from "@assets/image_1751972735704.png";
+import profileImage from "@/image_1751972735704.png";
 
 export default function Hero() {
   const handleScrollToProjects = () => {
